@@ -1,10 +1,10 @@
-INSERT INTO bears (name, age) VALUES
-  ("Mr. Chocolate", 5),
-  ("Rowdy", 5),
-  ("Tabitha", 12),
-  ("Sergeant Brown", 15),
-  ("Melissa", 16),
-  ("Grinch", 9),
-  ("Wendy", 14),
-  (NULL, 22)
+INSERT INTO bears (name, age, gender, color, temperament, alive) VALUES
+  ("Mr. Chocolate", 5, "male", "r", ":)", true),
+  ("Rowdy", 5, "male", "r", ":)", true),
+  ("Tabitha", 12, "female", "b", ":)", true),
+  ("Sergeant Brown", 15, "male", "b", ":(", true),
+  ("Melissa", 16, "female", "r", ":(", true),
+  ("Grinch", 9, "male", "b", ":)", true),
+  ("Wendy", 14, "female", "r", ":(", true),
+  (NULL, 22, "male", "r", ":)", false)
   ;
